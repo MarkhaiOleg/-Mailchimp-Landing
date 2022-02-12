@@ -257,3 +257,42 @@ margin: 0 auto;
 .carousel-text-p{
     font-size: 1.2rem;
 }
+
+/*SECTION6*/
+
+.section-6{
+    height: 70vh;
+    margin: 4rem auto;
+    color: #692340;
+    background-color:  #FBEECA;
+}
+
+.section-6 h3,
+.section-6 p{
+    padding-bottom: 3rem;
+    margin: 0 auto;
+}
+.section-6 h3{
+    font-weight: 700;
+    font-size: 4rem;
+    padding-top: 4rem;
+}
+
+.section-6 p{
+    width: 65%;
+    font-size: 1.4rem;
+}
+
+.section-6 button{
+    width: 225px;
+    height: 60px;
+    color: #692340;
+    background-color:  #FBEECA;
+    border: 1px solid #692340;
+    margin: 0 auto;
+}
+
+.section-6 button:hover{
+  color: #000;
+  border: 1px solid #000;
+}
