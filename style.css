@@ -1,6 +1,7 @@
 body{
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
+    min-width: 1200px;
 }
 
 .navbar{
@@ -264,7 +265,7 @@ margin: 0 auto;
     height: 70vh;
     margin: 4rem auto;
     color: #692340;
-    background-color:  #FBEECA;
+    
 }
 
 .section-6 h3,
@@ -293,6 +294,102 @@ margin: 0 auto;
 }
 
 .section-6 button:hover{
+  color: #000;
+  border: 1px solid #000;
+}
+
+
+
+/*SECTION7*/
+.section-7{
+    color: #692340;
+}
+.section-7 h2{
+ font-size: 3.57rem;
+ margin: 2rem 0 5rem 0;
+}
+
+.section-7-card h3,
+.section-7-card h4
+{
+    padding-bottom: 0.5rem;
+}
+
+.section-7-card h4{
+    font-size: 1.2rem;
+}
+
+.section-7-card h4{
+    font-size: 1.5rem;
+}
+
+.section-7-card p{
+    font-size: 1.2rem;
+}
+
+.section-7-buttom{
+    margin-top: 8rem;
+}
+
+.section-7-buttom-item{
+ width: 15%;
+}
+
+.section-7-buttom-item h5{
+    font-size: 1.6rem;
+}
+
+.section-7-buttom button {
+    width: 200px;
+    height: 60px;
+ color: #692340;
+ border: 2px solid #692340;
+ background-color: #fff;
+ font-size: 1.4rem;
+ margin-bottom: 5rem;
+}
+
+.section-7-buttom button:hover{
+    color: #000;
+    border: 2px solid #000;
+}
+
+/*SECTION8*/
+
+.section-8{
+    height: 70vh;
+    margin: 4rem auto;
+    color:  #FBEECA;
+    background-color:  #692340;
+}
+
+.section-8 h3,
+.section-8 p{
+    padding-bottom: 2rem;
+    margin: 0 auto;
+}
+.section-8 h3{
+    font-weight: 700;
+    font-size: 4rem;
+    padding-top: 4rem;
+}
+
+.section-8 p{
+    width: 65%;
+    font-size: 1.4rem;
+}
+
+.section-8 button{
+    width: 225px;
+    height: 60px;
+    color: #692340;
+    background-color:  #FBEECA;
+    border: 1px solid #692340;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+.section-8 button:hover{
   color: #000;
   border: 1px solid #000;
 }
