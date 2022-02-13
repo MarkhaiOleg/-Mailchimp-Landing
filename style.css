@@ -265,7 +265,7 @@ margin: 0 auto;
     height: 70vh;
     margin: 4rem auto;
     color: #692340;
-    
+    background-color:  #FBEECA;
 }
 
 .section-6 h3,
@@ -392,4 +392,63 @@ margin: 0 auto;
 .section-8 button:hover{
   color: #000;
   border: 1px solid #000;
+}
+
+/*FOOTER*/
+.footer-main{
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+    border-bottom: 3px solid #8C8C8C;
+}
+
+footer h5{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+footer a{
+    margin-bottom: 1rem;
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #692340;
+    text-decoration: underline;
+}
+
+footer img{
+    margin-bottom: 2rem;
+}
+
+.footer-bottom{
+    margin-top: 5rem;
+    padding-bottom: 10rem;
+    align-items: center;
+}
+
+.footer-bottom p{
+    width: 290px;
+    height: 70px;
+}
+
+.footer-bottom button{
+    width: 150px;
+    height: 50px;
+    border: 1px solid #000;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    background-color: #fff;
+}
+
+.footer-bottom button:hover{
+color: #692340;
+border-color: #692340;
+}
+
+.footer-icons{
+    gap: 1rem;
+}
+.footer-icons img{
+    width: 20px;
+    height: 20px;
 }
