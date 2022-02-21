@@ -452,3 +452,20 @@ border-color: #692340;
     width: 20px;
     height: 20px;
 }
+
+
+
+.section-2-card{
+    position: relative;
+}
+
+.delete{
+    position: absolute;
+    left: 92%;
+    top: -2%;
+    width: 2rem;
+    height: 2rem;
+    background-color: #692340;
+    border: none;
+}
+
