@@ -135,13 +135,13 @@ margin: 0auto;
     font-size: 1.3rem;
 }
 
-.section-2-card-title{
+.section-card-title{
     font-size: 1.7rem;
     text-align: center;
 
 }
 
-.section-2-card-info{
+.section-card-info{
     font-size: 1rem;
     text-align: center;
 
@@ -467,5 +467,6 @@ border-color: #692340;
     height: 2rem;
     background-color: #692340;
     border: none;
+    border-radius: 2px;
 }
 

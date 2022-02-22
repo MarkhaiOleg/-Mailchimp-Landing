@@ -1,23 +1,13 @@
-var card= document.querySelectorAll(".section-2-card");
-var buttonDelete = document.querySelectorAll('.delete');
+var card = document.querySelectorAll('.section-2-card');
 
-
-buttonDelete[0].addEventListener('click', () =>{
-    card[0].style.display = "none";
-})
-
-buttonDelete[1].addEventListener('click', () =>{
-    card[1].style.display = "none";
-})
-
-buttonDelete[2].addEventListener('click', () =>{
-    card[2].style.display = "none";
-})
-
-buttonDelete[3].addEventListener('click', () =>{
-    card[3].style.display = "none";
-})
-
-
-
+for (var i = 0; i < card.length; i++) {
+    var element = card[i]; 
+    var newElement = document.createElement("button");
+    element.appendChild(newElement)
+    newElement.classList.add("delete");
+    newElement.addEventListener('click', (e) => {
+        e.target.parentElement.remove();
+        
+    })
+  }
 
